@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color:whitesmoke;
+  font-family: 'PT Serif', serif;
+  min-height: 100vh;
+}
+.soon{
+  display: flex;
+  justify-content: center;
+  /* object-position: bottom; */
+  padding: 44% 1%;
+}
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0,0,0,.2));
+  font-size: 40px;
+  padding: 0 12%;
+}
+.waviy span {
+  font-family: 'Alfa Slab One', cursive;
+  position: relative;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  animation: waviy 1s infinite;
+  animation-delay: calc(.1s * var(--i));
+  
+}
+@keyframes waviy {
+  0%,40%,100% {
+    transform: translateY(0)
+  }
+  20% {
+    transform: translateY(-20px)
+  }
+}
+/* ======================================================== */
+/* header_section */
+.header_section{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+body{
+    background: whitesmoke;
+}
+
+
+.header_section .navbar .navbar-brand .yz_span_img{
+    height: 73px;
+}
+.header_section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link{
+    color: black	;
+}
+.header_section .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+    font-weight: 600;
+    color: grey;
+    border-bottom: black solid 1px;
+    border-top: black solid 1px;
+}
+.header_section .navbar .navbar-collapse .con-icon .con-ion-aref{
+    display: inline-block;
+    background: black;
+    color: #ffff;
+    height: 40px;
+    width: 40px;
+    font-size: 21px;
+    padding-left: 10px;
+    padding-top: 4px;
+    border-radius: 30px;
+}
+.header_section .navbar .navbar-collapse .con-icon .con-ion-aref:hover{
+    background:#ffff;
+    color: black;
+    transition: 1s ease-in;
+    border: 1px solid black;
+}
+/* ======================================================= */
+.end-section{
+  box-shadow: 1px 1px 10px #778899;
+}
+.end-section .container-fluid .row .col .span,.end-section .container-fluid .row .col .con-icon .text-center .span{
+color: black;
+font-weight: 700;
+}
+.end-section .container-fluid .row .col .con-icon .con-ion-aref{
+  display: inline-block;
+  background: black;
+  color: #ffff;
+  height: 40px;
+  width: 40px;
+  font-size: 19px;
+  padding-left: 11px;
+  padding-top: 6px;
+  border-radius: 30px;
+}
+.end-section .container-fluid .row .col .con-icon .con-ion-aref:hover{
+  color: black;
+  background:#ffff;
+  transition: 1s ease-in;
+  border: 1px solid black;
+  background:whitesmoke;
+}
+.end-section .container-fluid .row .col .address,.end-section .container-fluid .row .col .span-text{
+  color: #778899;
+  font-weight: 400; 
+}
+.end-section .container-fluid .row .col .address{
+width: 50%;
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld .aref{
+ text-decoration: none;
+ color: black;
+ font-weight: 400;
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld {
+  list-style: none;
+  
+}
+.end-section .container-fluid .row .col .text-p{
+  color: #778899;
+  font-weight: 400; 
+  text-align: justify; 
+}
+.end-section .container-fluid .row .col .ul-mom .ul-chld .aref:hover{
+  font-weight: 600;
+  color:grey;
+  border-bottom: 1px black solid;
+}
