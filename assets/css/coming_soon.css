@@ -15,6 +15,7 @@ body {
   justify-content: center;
   /* object-position: bottom; */
   padding: 44% 1%;
+  height:100vh;
 }
 
 .waviy {
